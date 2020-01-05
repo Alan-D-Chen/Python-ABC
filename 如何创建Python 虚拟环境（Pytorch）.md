@@ -79,7 +79,7 @@ anaconda 命令创建python版本为X.X、名字为your_env_name的虚拟环境�
 ## ７　下载好pytorch之后，`pip install torch.....`
 >## [Pytorch官网](https://pytorch.org/)  
 >#### 这里可以根据自己的机器选择安装版本。一定要注意安装pytorch的版本。
-![示意图]()
+![示意图](https://github.com/Alan-D-Chen/Python-ABC/blob/master/pytorch.png)
 
 `conda install pytorch torchvision cudatoolkit=10.1 -c pytorch`
 

@@ -110,5 +110,5 @@ anaconda 命令创建python版本为X.X、名字为your_env_name的虚拟环境�
 5.[Anaconda使用总结](https://www.jianshu.com/p/2f3be7781451)  
 6.https://blog.csdn.net/qinguanggai9953/article/details/88235043
 7.https://blog.csdn.net/hao5335156/article/details/80798143
-8.https://blog.csdn.net/qq_32408773/article/details/84112166
+8.https://blog.csdn.net/qq_32408773/article/details/84112166  
 9.https://blog.csdn.net/li57681522/article/details/82491617

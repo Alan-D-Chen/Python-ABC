@@ -9,7 +9,9 @@
 # 如何创建Python 虚拟环境（Pytorch）
 ## Python 基础教程--环境的创建和配置
 ### 以创建Pytorch为例
-======================================================================  
+======================================================================  <br>
+（For more information, please go to ***[Alan D. Chen](https://github.com/Alan-D-Chen/Python-ABC)*** , upgrading~~）<br>
+
 _**Anaconda与conda区别 
 conda可以理解为一个工具，也是一个可执行命令，其核心功能是包管理与环境管理。包管理与pip的使用类似，环境管理则允许用户方便地安装不同版本的python并可以快速切换。 conda的设计理念——conda将几乎所有的工具、第三方包都当做package对待，甚至包括python和conda自身 Anaconda则是一个打包的集合，里面预装好了conda、某个版本的python、众多packages、科学计算工具等等。**_
 

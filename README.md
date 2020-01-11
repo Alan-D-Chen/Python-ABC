@@ -1,6 +1,7 @@
 # Python-ABC
 The basic description about Python
- 
+===============================================================================<br>
+（For more information, please go to ***[Alan D. Chen](https://github.com/Alan-D-Chen/Python-ABC)*** , upgrading~~）
 
 
 |  |  |  |

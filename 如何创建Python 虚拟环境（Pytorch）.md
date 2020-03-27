@@ -99,7 +99,8 @@ anaconda 命令创建python版本为X.X、名字为your_env_name的虚拟环境�
 
 ## １１接下来安装torchvision:`conda install torchvision`!
 
-
+##  1 2 wins pycharm 配置虚拟环境  -->[pycharm配置本地python虚拟环境](https://blog.csdn.net/guying4875/article/details/80905472)
+##  1 3 [Python基础42-虚拟环境(创建/激活/操作/删除-virtualenv、Pycharm、virtualenvwrapper、pipenv)](https://www.jianshu.com/p/a83a8f5d68dd?utm_campaign=maleskine&utm_content=note&utm_medium=writer_share&utm_source=weibo)
 
 ## 参考文献
 1.[Anaconda+用conda创建python虚拟环境](https://www.cnblogs.com/swje/p/7642929.html)  

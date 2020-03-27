@@ -102,6 +102,7 @@ anaconda 命令创建python版本为X.X、名字为your_env_name的虚拟环境�
 ##  1 2 wins pycharm 配置虚拟环境  -->[pycharm配置本地python虚拟环境](https://blog.csdn.net/guying4875/article/details/80905472)
 ##  1 3 [Python基础42-虚拟环境(创建/激活/操作/删除-virtualenv、Pycharm、virtualenvwrapper、pipenv)](https://www.jianshu.com/p/a83a8f5d68dd?utm_campaign=maleskine&utm_content=note&utm_medium=writer_share&utm_source=weibo)
 
+##  1 4 [在pycharm中使用指定的虚拟环境virtualenv](https://www.cnblogs.com/one-tom/p/10677455.html)
 ## 参考文献
 1.[Anaconda+用conda创建python虚拟环境](https://www.cnblogs.com/swje/p/7642929.html)  
 2.http://blog.csdn.net/lyy14011305/article/details/59500819  

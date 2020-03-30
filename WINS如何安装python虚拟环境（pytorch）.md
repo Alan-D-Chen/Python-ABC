@@ -70,7 +70,7 @@ C是cmd，ls 是bash命令，C可以用cd，只是不能这样进根目录，直
   <br> 
 module 应该比较干净。
 此时，需要做一下，检查：
-`pip -V`,`conda -V` ,`pip list`,`conda list` ,以上语句，可以帮助你查明新建的虚拟环境与原始环境是否公用一个interpreter，或者公用一副 pip/conda 管理包。
+ `pip -V` , `conda -V` , `pip list` , `conda list` ,以上语句，可以帮助你查明新建的虚拟环境与原始环境是否公用一个interpreter，或者公用一副 pip/conda 管理包。
 <br>
 一旦发现公用一个interpreter，或者公用一副 pip/conda 管理包，之后安装pytorch，就会出现error。
  

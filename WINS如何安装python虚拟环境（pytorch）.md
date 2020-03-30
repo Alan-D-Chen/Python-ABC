@@ -28,7 +28,7 @@ conda可以理解为一个工具，也是一个可执行命令，其核心功能
 * [win10+python3 Pytorch安装](https://blog.csdn.net/ZHUJIYAO/article/details/89554096)
 
 ---------------------------------------------------------------------------
-## tips:
+### tips:
 <br>
 
 ![图片2](https://github.com/Alan-D-Chen/Python-ABC/blob/master/Inked%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330182919_LI.jpg)
@@ -63,22 +63,27 @@ C是cmd，ls 是bash命令，C可以用cd，只是不能这样进根目录，直
   <br>
   
  ## 正常创建的虚拟环境，应该是下面的画面：（pycharm）
+ 
  <br>
  
  ![图片4](https://github.com/Alan-D-Chen/Python-ABC/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200835.png)
  
-  <br> 
+ <br> 
 module 应该比较干净。
 此时，需要做一下，检查：
+
  `pip -V` , `conda -V` , `pip list` , `conda list` ,以上语句，可以帮助你查明新建的虚拟环境与原始环境是否公用一个interpreter，或者公用一副 pip/conda 管理包。
 <br>
 一旦发现公用一个interpreter，或者公用一副 pip/conda 管理包，之后安装pytorch，就会出现error。
  
  <br>
- pytorch 的 依赖包：<br>
- [PyTorch入门教程](https://www.jianshu.com/p/d66319506dd7)<br>
+ pytorch 的 依赖包：
+ <br>
+ [PyTorch入门教程](https://www.jianshu.com/p/d66319506dd7)
+ <br>
  pytorch需要numpy~，请确保numpy的正常~~
-### [pytorch在windows10上安装使用](https://blog.csdn.net/cuixing001/article/details/81952116)
+ <br>
+ ## [pytorch在windows10上安装使用](https://blog.csdn.net/cuixing001/article/details/81952116)
  <br>
  测试pytorch 是否安装完好：
  `import torch

@@ -68,11 +68,12 @@ B无法激活环境很有可能跟pycharm无法区分pip有关系~<br>C是cmd，
  ![图片4](https://github.com/Alan-D-Chen/Python-ABC/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200835.png)
  
  <br> 
-module 应该比较干净。此时，需要做一下，检查：
+module 应该比较干净。此时，需要做一下检查：
 
- `pip -V` , `conda -V` , `pip list` , `conda list` ,以上语句，可以帮助你查明新建的虚拟环境与原始环境是否公用一个interpreter，或者公用一副 pip/conda 管理包。
-<br>
-一旦发现公用一个interpreter，或者公用一副 pip/conda 管理包，之后安装pytorch，就会出现error。
+ `pip -V` , `conda -V` , `pip list` , `conda list` ,
+ <br>
+ 
+ 以上语句，可以帮助你查明新建的虚拟环境与原始环境是否公用一个interpreter，或者公用一副 pip/conda 管理包。一旦发现公用一个interpreter，或者公用一副 pip/conda 管理包，之后安装pytorch，就会出现error。
  
  <br>
  pytorch 的 依赖包：
@@ -89,6 +90,7 @@ module 应该比较干净。此时，需要做一下，检查：
  <br>
  测试pytorch 是否安装完好：
  <br>
+ 
  `import torch`
  <br>
  `A = torch.randn(3,3)`
@@ -100,6 +102,7 @@ module 应该比较干净。此时，需要做一下，检查：
  <br>
  可以切换为原始的环境，再次测试：
  <br>
+ 
  `import torch`
  <br>
  `A = torch.randn(3,3)`

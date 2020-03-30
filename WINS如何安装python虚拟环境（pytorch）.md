@@ -28,13 +28,13 @@ conda可以理解为一个工具，也是一个可执行命令，其核心功能
 * [win10+python3 Pytorch安装](https://blog.csdn.net/ZHUJIYAO/article/details/89554096)
 
 ---------------------------------------------------------------------------
-### tips:
+
 <br>
 
 ![图片2](https://github.com/Alan-D-Chen/Python-ABC/blob/master/Inked%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330182919_LI.jpg)
 
 <br>
-
+>>> tips
 在使用pycharm创建虚拟环境之后，<br>
 1.使用 B 来创建python虚拟环境，发现到最后无法激活环境，<br>
 2.而且AC处无法使用 cd ls 等命令，变得有些难用~<br>
@@ -69,8 +69,7 @@ C是cmd，ls 是bash命令，C可以用cd，只是不能这样进根目录，直
  ![图片4](https://github.com/Alan-D-Chen/Python-ABC/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200835.png)
  
  <br> 
-module 应该比较干净。
-此时，需要做一下，检查：
+module 应该比较干净。此时，需要做一下，检查：
 
  `pip -V` , `conda -V` , `pip list` , `conda list` ,以上语句，可以帮助你查明新建的虚拟环境与原始环境是否公用一个interpreter，或者公用一副 pip/conda 管理包。
 <br>
@@ -86,17 +85,24 @@ module 应该比较干净。
  ## [pytorch在windows10上安装使用](https://blog.csdn.net/cuixing001/article/details/81952116)
  <br>
  测试pytorch 是否安装完好：
- `import torch
-  A = torch.randn(3,3)
-  print(A)
-  `
- 如是出现`from torch._C import * ImportError: DLL load failed: 找不到指定的模块。`
  <br>
- 可以切换为原始的环境，再次测试：<br>
- `import torch
-  A = torch.randn(3,3)
-  print(A)
-  `
+ `import torch`
+ <br>
+  `A = torch.randn(3,3)`
+  <br>
+  `print(A)`
+  <br>
+ 如是出现
+ `from torch._C import * ImportError: DLL load failed: 找不到指定的模块。`
+ <br>
+ 可以切换为原始的环境，再次测试：
+ <br>
+ `import torch`
+ <br>
+  `A = torch.randn(3,3)`
+  <br>
+  `print(A)`
+  <br>
   因为你很有可能将pytorch安装到原始环境去了。
   
 然后再去阅读下面的教程：

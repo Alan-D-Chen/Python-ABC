@@ -1,7 +1,3 @@
-
-
-
-
 # WINS如何创建Python 虚拟环境（Pytorch）
 ## Python 基础教程--环境的创建和配置
 ### 以创建Pytorch为例
@@ -14,7 +10,9 @@ conda可以理解为一个工具，也是一个可执行命令，其核心功能
 <br>
 >>>强烈建议先使用命令行创建虚拟环境然后使用IDE加载虚拟环境，这样比较保险！！~~~
 <br>
+
 ![图片1](https://github.com/Alan-D-Chen/Python-ABC/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200813.png)
+
 <br>
 
 虽然网上有不少的教程，但是不少的细节没有介绍到。
@@ -32,7 +30,9 @@ conda可以理解为一个工具，也是一个可执行命令，其核心功能
 ---------------------------------------------------------------------------
 ## tips:
 <br>
+
 ![图片2](https://github.com/Alan-D-Chen/Python-ABC/blob/master/Inked%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330182919_LI.jpg)
+
 <br>
 
 在使用pycharm创建虚拟环境之后，<br>
@@ -45,7 +45,9 @@ C是cmd，ls 是bash命令，C可以用cd，只是不能这样进根目录，直
 <br>
 ---------------------------------------------------------------
 当你使用命令行，激活完成虚拟环境之后会出现前缀（虚拟环境名称）的符头。<br>
+
 ![图片3](https://github.com/Alan-D-Chen/Python-ABC/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200821.png)
+
 如果你喜欢命令行操作的话，工作已经基本完成了。<br>
 
 
@@ -62,7 +64,9 @@ C是cmd，ls 是bash命令，C可以用cd，只是不能这样进根目录，直
   
  ## 正常创建的虚拟环境，应该是下面的画面：（pycharm）
  <br>
+ 
  ![图片4](https://github.com/Alan-D-Chen/Python-ABC/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200835.png)
+ 
   <br> 
 module 应该比较干净。
 此时，需要做一下，检查：

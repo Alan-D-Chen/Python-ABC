@@ -44,7 +44,9 @@ C是cmd，ls 是bash命令，C可以用cd，只是不能这样进根目录，直
 不用cd
 <br>
 ---------------------------------------------------------------
-当你使用命令行，激活完成虚拟环境之后会出现前缀（虚拟环境名称）的符头。<br>
+<br>
+当你使用命令行，激活完成虚拟环境之后会出现前缀（虚拟环境名称）的符头。
+<br>
 
 ![图片3](https://github.com/Alan-D-Chen/Python-ABC/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200821.png)
 
@@ -83,13 +85,19 @@ module 应该比较干净。此时，需要做一下，检查：
  pytorch需要numpy~，请确保numpy的正常~~
  <br>
  ### [pytorch在windows10上安装使用](https://blog.csdn.net/cuixing001/article/details/81952116)
+ 
  <br>
  测试pytorch 是否安装完好：
  <br>
+ 
  `import torch`
+ 
  <br>
+ 
   `A = torch.randn(3,3)`
+  
   <br>
+  
   `print(A)`
   <br>
  如是出现

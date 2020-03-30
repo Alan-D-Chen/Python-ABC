@@ -34,14 +34,7 @@ conda可以理解为一个工具，也是一个可执行命令，其核心功能
 ![图片2](https://github.com/Alan-D-Chen/Python-ABC/blob/master/Inked%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330182919_LI.jpg)
 
 <br>
->>>tips
-在使用pycharm创建虚拟环境之后，<br>
-1.使用 B 来创建python虚拟环境，发现到最后无法激活环境，<br>
-2.而且AC处无法使用 cd ls 等命令，变得有些难用~<br>
-B无法激活环境很有可能跟pycharm无法区分pip有关系~<br>
-C是cmd，ls 是bash命令，C可以用cd，只是不能这样进根目录，直接d:，其他的都可以cd，
-除了换盘的时候，你现在再cd 进d盘的其他目录是可以的，除了切换cde盘的时候直接`c: d: e:`
-不用cd
+>>>tips:<br>在使用pycharm创建虚拟环境之后，<br> 1.使用 B 来创建python虚拟环境，发现到最后无法激活环境，<br> 2.而且AC处无法使用 cd ls 等命令，变得有些难用~<br> B无法激活环境很有可能跟pycharm无法区分pip有关系~<br>C是cmd，ls 是bash命令，C可以用cd，只是不能这样进根目录，直接d:，其他的都可以cd，除了换盘的时候，你现在再cd 进d盘的其他目录是可以的，除了切换cde盘的时候直接`c: d: e:`,不用cd。
 <br>
 ---------------------------------------------------------------
 <br>
@@ -80,37 +73,35 @@ module 应该比较干净。此时，需要做一下，检查：
  <br>
  pytorch 的 依赖包：
  <br>
- [PyTorch入门教程](https://www.jianshu.com/p/d66319506dd7)
+ 
+ ### [PyTorch入门教程](https://www.jianshu.com/p/d66319506dd7)
+ 
  <br>
  pytorch需要numpy~，请确保numpy的正常~~
  <br>
+ 
  ### [pytorch在windows10上安装使用](https://blog.csdn.net/cuixing001/article/details/81952116)
  
  <br>
  测试pytorch 是否安装完好：
  <br>
- 
  `import torch`
- 
  <br>
- 
-  `A = torch.randn(3,3)`
-  
-  <br>
-  
-  `print(A)`
-  <br>
- 如是出现
+ `A = torch.randn(3,3)`
+ <br>
+ `print(A)`
+ <br>
+ 如是出现：<br>
  `from torch._C import * ImportError: DLL load failed: 找不到指定的模块。`
  <br>
  可以切换为原始的环境，再次测试：
  <br>
  `import torch`
  <br>
-  `A = torch.randn(3,3)`
-  <br>
-  `print(A)`
-  <br>
+ `A = torch.randn(3,3)`
+ <br>
+ `print(A)`
+ <br>
   因为你很有可能将pytorch安装到原始环境去了。
   
 然后再去阅读下面的教程：

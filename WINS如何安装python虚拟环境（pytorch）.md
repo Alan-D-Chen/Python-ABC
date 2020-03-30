@@ -54,7 +54,7 @@ B无法激活环境很有可能跟pycharm无法区分pip有关系~<br>C是cmd，
 
 可以参考一下教程：（加载已有的虚拟环境和创建全新的虚拟环境）
 * [手把手教你如何在Pycharm中加载和使用虚拟环境](https://www.cnblogs.com/dcpeng/p/12257331.html)<br>
-  注意：``  6、根据目录，依次找到自己创建的虚拟环境路径，我的路径是I:->Virtual_environment_list->Scripts->python.exe，如下图所示。`
+  注意：`6、根据目录，依次找到自己创建的虚拟环境路径，我的路径是I:->Virtual_environment_list->Scripts->python.exe，如下图所示。`
   这一步的路径一定要替换为你自己的(上面的自己建立的)interpreter~！
 * [pycharm配置本地python虚拟环境](https://blog.csdn.net/guying4875/article/details/80905472)
   这里一定要注意1234的选择，尤其是 1 2 的路径，不然很有可能会占用你原始环境的ntetpreter

@@ -2,91 +2,95 @@
 
 
 
-# WINSÈçºÎ´´½¨Python ĞéÄâ»·¾³£¨Pytorch£©
-## Python »ù´¡½Ì³Ì--»·¾³µÄ´´½¨ºÍÅäÖÃ
-### ÒÔ´´½¨PytorchÎªÀı
+# WINSå¦‚ä½•åˆ›å»ºPython è™šæ‹Ÿç¯å¢ƒï¼ˆPytorchï¼‰
+## Python åŸºç¡€æ•™ç¨‹--ç¯å¢ƒçš„åˆ›å»ºå’Œé…ç½®
+### ä»¥åˆ›å»ºPytorchä¸ºä¾‹
 
 ----------------------------------------------
-Thanks a lot for tongji501 [@Mr.Jiang](https://baike.baidu.com/item/ÎâÑå×æ/182990?fr=aladdin)<br>
-£¨For more information, please go to ***[Alan D. Chen](https://github.com/Alan-D-Chen/Python-ABC)*** , upgrading~~£©<br>  
-conda¿ÉÒÔÀí½âÎªÒ»¸ö¹¤¾ß£¬Ò²ÊÇÒ»¸ö¿ÉÖ´ĞĞÃüÁî£¬ÆäºËĞÄ¹¦ÄÜÊÇ°ü¹ÜÀíÓë»·¾³¹ÜÀí¡£°ü¹ÜÀíÓëpipµÄÊ¹ÓÃÀàËÆ£¬»·¾³¹ÜÀíÔòÔÊĞíÓÃ»§·½±ãµØ°²×°²»Í¬°æ±¾µÄpython²¢¿ÉÒÔ¿ìËÙÇĞ»»¡£ condaµÄÉè¼ÆÀíÄî¡ª¡ªconda½«¼¸ºõËùÓĞµÄ¹¤¾ß¡¢µÚÈı·½°ü¶¼µ±×öpackage¶Ô´ı£¬ÉõÖÁ°üÀ¨pythonºÍconda×ÔÉí AnacondaÔòÊÇÒ»¸ö´ò°üµÄ¼¯ºÏ£¬ÀïÃæÔ¤×°ºÃÁËconda¡¢Ä³¸ö°æ±¾µÄpython¡¢ÖÚ¶àpackages¡¢¿ÆÑ§¼ÆËã¹¤¾ßµÈµÈ¡£
-½¨ÒéÊ¹ÓÃ pip¡¢pip3»òÕßconda,ÔÚÊ¹ÓÃ°ü¹ÜÀíÖ®Ç°£¬½¨Òé²é¿´pip¡¢condaµÄ°æ±¾ºÍ°²×°Â·¾¶(Ê¹ÓÃ`pip -V`£¬`conda -V`£¬ÕâÀï¿ÉÒÔÓÃÀ´¼ø±ğĞéÄâ»·¾³µÄinterpreterÊÇ·ñºÍÔ­Ê¼µÄ»·¾³µÄ¹²ÓÃÒ»¸öinterpreter¡£)
+Thanks a lot for tongji501 [@Mr.Jiang](https://baike.baidu.com/item/å´å½¦ç¥–/182990?fr=aladdin)<br>
+ï¼ˆFor more information, please go to ***[Alan D. Chen](https://github.com/Alan-D-Chen/Python-ABC)*** , upgrading~~ï¼‰<br>  
+condaå¯ä»¥ç†è§£ä¸ºä¸€ä¸ªå·¥å…·ï¼Œä¹Ÿæ˜¯ä¸€ä¸ªå¯æ‰§è¡Œå‘½ä»¤ï¼Œå…¶æ ¸å¿ƒåŠŸèƒ½æ˜¯åŒ…ç®¡ç†ä¸ç¯å¢ƒç®¡ç†ã€‚åŒ…ç®¡ç†ä¸pipçš„ä½¿ç”¨ç±»ä¼¼ï¼Œç¯å¢ƒç®¡ç†åˆ™å…è®¸ç”¨æˆ·æ–¹ä¾¿åœ°å®‰è£…ä¸åŒç‰ˆæœ¬çš„pythonå¹¶å¯ä»¥å¿«é€Ÿåˆ‡æ¢ã€‚ condaçš„è®¾è®¡ç†å¿µâ€”â€”condaå°†å‡ ä¹æ‰€æœ‰çš„å·¥å…·ã€ç¬¬ä¸‰æ–¹åŒ…éƒ½å½“åšpackageå¯¹å¾…ï¼Œç”šè‡³åŒ…æ‹¬pythonå’Œcondaè‡ªèº« Anacondaåˆ™æ˜¯ä¸€ä¸ªæ‰“åŒ…çš„é›†åˆï¼Œé‡Œé¢é¢„è£…å¥½äº†condaã€æŸä¸ªç‰ˆæœ¬çš„pythonã€ä¼—å¤špackagesã€ç§‘å­¦è®¡ç®—å·¥å…·ç­‰ç­‰ã€‚
+å»ºè®®ä½¿ç”¨ pipã€pip3æˆ–è€…conda,åœ¨ä½¿ç”¨åŒ…ç®¡ç†ä¹‹å‰ï¼Œå»ºè®®æŸ¥çœ‹pipã€condaçš„ç‰ˆæœ¬å’Œå®‰è£…è·¯å¾„(ä½¿ç”¨`pip -V`ï¼Œ`conda -V`ï¼Œè¿™é‡Œå¯ä»¥ç”¨æ¥é‰´åˆ«è™šæ‹Ÿç¯å¢ƒçš„interpreteræ˜¯å¦å’ŒåŸå§‹çš„ç¯å¢ƒçš„å…±ç”¨ä¸€ä¸ªinterpreterã€‚)
 <br>
-Í¼Æ¬1
+>>>å¼ºçƒˆå»ºè®®å…ˆä½¿ç”¨å‘½ä»¤è¡Œåˆ›å»ºè™šæ‹Ÿç¯å¢ƒç„¶åä½¿ç”¨IDEåŠ è½½è™šæ‹Ÿç¯å¢ƒï¼Œè¿™æ ·æ¯”è¾ƒä¿é™©ï¼ï¼~~~
 <br>
-ËäÈ»ÍøÉÏÓĞ²»ÉÙµÄ½Ì³Ì£¬µ«ÊÇ²»ÉÙµÄÏ¸½ÚÃ»ÓĞ½éÉÜµ½¡£
-Ê×ÏÈÊÇÃüÁîĞĞ£º
-## [windows°²×°PythonĞéÄâ»·¾³](https://www.cnblogs.com/sisa/p/10824191.html)
-ÕâÀïÖ»Òª×öµ½µÚÁù²½`ÍË³övirtualenv  deactivate.bat`£¬¾Í¿ÉÒÔÁË£¬µ±È»Ò²¿ÉÒÔ¼ÌĞøÏÂÃæµÄ²½Öè¡£
+![å›¾ç‰‡1](https://github.com/Alan-D-Chen/Python-ABC/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200813.png)
+<br>
 
-´Ë´¦£¬Èç¹û³öÏÖÁËÎÊÌâ£¬¿ÉÒÔ²Î¿¼Ò»ÏÂ½Ì³Ì£º
-* [WindowsÏÂ´î½¨PythonĞéÄâ»·¾³](https://www.jianshu.com/p/ad2d8ee4a679)
-* [windowsÏÂpythonĞéÄâ»·¾³virtualenv°²×°ºÍÊ¹ÓÃ](https://www.cnblogs.com/sunyllove/p/9748995.html)
-* [±Ê¼Ç1](https://www.jianshu.com/p/3b9b218b66a3)
-* [PythonÑ§Ï°±Ê¼Ç£ºĞéÄâ»·¾³ºÍ°ü](https://blog.csdn.net/lvsehaiyang1993/article/details/82749360)
-* [win10+python3 Pytorch°²×°](https://blog.csdn.net/ZHUJIYAO/article/details/89554096)
+è™½ç„¶ç½‘ä¸Šæœ‰ä¸å°‘çš„æ•™ç¨‹ï¼Œä½†æ˜¯ä¸å°‘çš„ç»†èŠ‚æ²¡æœ‰ä»‹ç»åˆ°ã€‚
+é¦–å…ˆæ˜¯å‘½ä»¤è¡Œï¼š
+## [windowså®‰è£…Pythonè™šæ‹Ÿç¯å¢ƒ](https://www.cnblogs.com/sisa/p/10824191.html)
+è¿™é‡Œåªè¦åšåˆ°ç¬¬å…­æ­¥`é€€å‡ºvirtualenv  deactivate.bat`ï¼Œå°±å¯ä»¥äº†ï¼Œå½“ç„¶ä¹Ÿå¯ä»¥ç»§ç»­ä¸‹é¢çš„æ­¥éª¤ã€‚
+
+æ­¤å¤„ï¼Œå¦‚æœå‡ºç°äº†é—®é¢˜ï¼Œå¯ä»¥å‚è€ƒä¸€ä¸‹æ•™ç¨‹ï¼š
+* [Windowsä¸‹æ­å»ºPythonè™šæ‹Ÿç¯å¢ƒ](https://www.jianshu.com/p/ad2d8ee4a679)
+* [windowsä¸‹pythonè™šæ‹Ÿç¯å¢ƒvirtualenvå®‰è£…å’Œä½¿ç”¨](https://www.cnblogs.com/sunyllove/p/9748995.html)
+* [ç¬”è®°1](https://www.jianshu.com/p/3b9b218b66a3)
+* [Pythonå­¦ä¹ ç¬”è®°ï¼šè™šæ‹Ÿç¯å¢ƒå’ŒåŒ…](https://blog.csdn.net/lvsehaiyang1993/article/details/82749360)
+* [win10+python3 Pytorchå®‰è£…](https://blog.csdn.net/ZHUJIYAO/article/details/89554096)
 
 ---------------------------------------------------------------------------
 ## tips:
 <br>
-Í¼Æ¬2
+![å›¾ç‰‡2](https://github.com/Alan-D-Chen/Python-ABC/blob/master/Inked%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330182919_LI.jpg)
 <br>
 
-ÔÚÊ¹ÓÃpycharm´´½¨ĞéÄâ»·¾³Ö®ºó£¬<br>
-1.Ê¹ÓÃ B À´´´½¨pythonĞéÄâ»·¾³£¬·¢ÏÖµ½×îºóÎŞ·¨¼¤»î»·¾³£¬<br>
-2.¶øÇÒAC´¦ÎŞ·¨Ê¹ÓÃ cd ls µÈÃüÁî£¬±äµÃÓĞĞ©ÄÑÓÃ~<br>
-BÎŞ·¨¼¤»î»·¾³ºÜÓĞ¿ÉÄÜ¸úpycharmÎŞ·¨Çø·ÖpipÓĞ¹ØÏµ~<br>
-CÊÇcmd£¬ls ÊÇbashÃüÁî£¬C¿ÉÒÔÓÃcd£¬Ö»ÊÇ²»ÄÜÕâÑù½ø¸ùÄ¿Â¼£¬Ö±½Ód:£¬ÆäËûµÄ¶¼¿ÉÒÔcd£¬
-³ıÁË»»ÅÌµÄÊ±ºò£¬ÄãÏÖÔÚÔÙcd ½ødÅÌµÄÆäËûÄ¿Â¼ÊÇ¿ÉÒÔµÄ£¬³ıÁËÇĞ»»cdeÅÌµÄÊ±ºòÖ±½Óc: d: e:
-²»ÓÃcd
+åœ¨ä½¿ç”¨pycharmåˆ›å»ºè™šæ‹Ÿç¯å¢ƒä¹‹åï¼Œ<br>
+1.ä½¿ç”¨ B æ¥åˆ›å»ºpythonè™šæ‹Ÿç¯å¢ƒï¼Œå‘ç°åˆ°æœ€åæ— æ³•æ¿€æ´»ç¯å¢ƒï¼Œ<br>
+2.è€Œä¸”ACå¤„æ— æ³•ä½¿ç”¨ cd ls ç­‰å‘½ä»¤ï¼Œå˜å¾—æœ‰äº›éš¾ç”¨~<br>
+Bæ— æ³•æ¿€æ´»ç¯å¢ƒå¾ˆæœ‰å¯èƒ½è·Ÿpycharmæ— æ³•åŒºåˆ†pipæœ‰å…³ç³»~<br>
+Cæ˜¯cmdï¼Œls æ˜¯bashå‘½ä»¤ï¼ŒCå¯ä»¥ç”¨cdï¼Œåªæ˜¯ä¸èƒ½è¿™æ ·è¿›æ ¹ç›®å½•ï¼Œç›´æ¥d:ï¼Œå…¶ä»–çš„éƒ½å¯ä»¥cdï¼Œ
+é™¤äº†æ¢ç›˜çš„æ—¶å€™ï¼Œä½ ç°åœ¨å†cd è¿›dç›˜çš„å…¶ä»–ç›®å½•æ˜¯å¯ä»¥çš„ï¼Œé™¤äº†åˆ‡æ¢cdeç›˜çš„æ—¶å€™ç›´æ¥c: d: e:
+ä¸ç”¨cd
 <br>
 ---------------------------------------------------------------
-µ±ÄãÊ¹ÓÃÃüÁîĞĞ£¬¼¤»îÍê³ÉĞéÄâ»·¾³Ö®ºó»á³öÏÖÇ°×º£¨ĞéÄâ»·¾³Ãû³Æ£©µÄ·ûÍ·¡£
-Èç¹ûÄãÏ²»¶ÃüÁîĞĞ²Ù×÷µÄ»°£¬¹¤×÷ÒÑ¾­»ù±¾Íê³ÉÁË¡£<br>
+å½“ä½ ä½¿ç”¨å‘½ä»¤è¡Œï¼Œæ¿€æ´»å®Œæˆè™šæ‹Ÿç¯å¢ƒä¹‹åä¼šå‡ºç°å‰ç¼€ï¼ˆè™šæ‹Ÿç¯å¢ƒåç§°ï¼‰çš„ç¬¦å¤´ã€‚<br>
+![å›¾ç‰‡3](https://github.com/Alan-D-Chen/Python-ABC/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200821.png)
+å¦‚æœä½ å–œæ¬¢å‘½ä»¤è¡Œæ“ä½œçš„è¯ï¼Œå·¥ä½œå·²ç»åŸºæœ¬å®Œæˆäº†ã€‚<br>
 
 
-## python IDE (ÒÔpycharmÎªÀı)
+## python IDE (ä»¥pycharmä¸ºä¾‹)
 
-¿ÉÒÔ²Î¿¼Ò»ÏÂ½Ì³Ì£º£¨¼ÓÔØÒÑÓĞµÄĞéÄâ»·¾³ºÍ´´½¨È«ĞÂµÄĞéÄâ»·¾³£©
-* [ÊÖ°ÑÊÖ½ÌÄãÈçºÎÔÚPycharmÖĞ¼ÓÔØºÍÊ¹ÓÃĞéÄâ»·¾³](https://www.cnblogs.com/dcpeng/p/12257331.html)<br>
-  ×¢Òâ£º``  6¡¢¸ù¾İÄ¿Â¼£¬ÒÀ´ÎÕÒµ½×Ô¼º´´½¨µÄĞéÄâ»·¾³Â·¾¶£¬ÎÒµÄÂ·¾¶ÊÇI:->Virtual_environment_list->Scripts->python.exe£¬ÈçÏÂÍ¼ËùÊ¾¡£`
-  ÕâÒ»²½µÄÂ·¾¶Ò»¶¨ÒªÌæ»»ÎªÄã×Ô¼ºµÄ(ÉÏÃæµÄ×Ô¼º½¨Á¢µÄ)interpreter~£¡
-* [pycharmÅäÖÃ±¾µØpythonĞéÄâ»·¾³](https://blog.csdn.net/guying4875/article/details/80905472)
-  ÕâÀïÒ»¶¨Òª×¢Òâ1234µÄÑ¡Ôñ£¬ÓÈÆäÊÇ 1 2 µÄÂ·¾¶£¬²»È»ºÜÓĞ¿ÉÄÜ»áÕ¼ÓÃÄãÔ­Ê¼»·¾³µÄntetpreter
+å¯ä»¥å‚è€ƒä¸€ä¸‹æ•™ç¨‹ï¼šï¼ˆåŠ è½½å·²æœ‰çš„è™šæ‹Ÿç¯å¢ƒå’Œåˆ›å»ºå…¨æ–°çš„è™šæ‹Ÿç¯å¢ƒï¼‰
+* [æ‰‹æŠŠæ‰‹æ•™ä½ å¦‚ä½•åœ¨Pycharmä¸­åŠ è½½å’Œä½¿ç”¨è™šæ‹Ÿç¯å¢ƒ](https://www.cnblogs.com/dcpeng/p/12257331.html)<br>
+  æ³¨æ„ï¼š``  6ã€æ ¹æ®ç›®å½•ï¼Œä¾æ¬¡æ‰¾åˆ°è‡ªå·±åˆ›å»ºçš„è™šæ‹Ÿç¯å¢ƒè·¯å¾„ï¼Œæˆ‘çš„è·¯å¾„æ˜¯I:->Virtual_environment_list->Scripts->python.exeï¼Œå¦‚ä¸‹å›¾æ‰€ç¤ºã€‚`
+  è¿™ä¸€æ­¥çš„è·¯å¾„ä¸€å®šè¦æ›¿æ¢ä¸ºä½ è‡ªå·±çš„(ä¸Šé¢çš„è‡ªå·±å»ºç«‹çš„)interpreter~ï¼
+* [pycharmé…ç½®æœ¬åœ°pythonè™šæ‹Ÿç¯å¢ƒ](https://blog.csdn.net/guying4875/article/details/80905472)
+  è¿™é‡Œä¸€å®šè¦æ³¨æ„1234çš„é€‰æ‹©ï¼Œå°¤å…¶æ˜¯ 1 2 çš„è·¯å¾„ï¼Œä¸ç„¶å¾ˆæœ‰å¯èƒ½ä¼šå ç”¨ä½ åŸå§‹ç¯å¢ƒçš„ntetpreter
   
   <br>
   
- ## Õı³£´´½¨µÄĞéÄâ»·¾³£¬Ó¦¸ÃÊÇÏÂÃæµÄ»­Ãæ£º£¨pycharm£©
+ ## æ­£å¸¸åˆ›å»ºçš„è™šæ‹Ÿç¯å¢ƒï¼Œåº”è¯¥æ˜¯ä¸‹é¢çš„ç”»é¢ï¼šï¼ˆpycharmï¼‰
  <br>
- Í¼Æ¬3
+ ![å›¾ç‰‡4](https://github.com/Alan-D-Chen/Python-ABC/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200835.png)
   <br> 
-module Ó¦¸Ã±È½Ï¸É¾»¡£
-´ËÊ±£¬ĞèÒª×öÒ»ÏÂ£¬¼ì²é£º
-`pip -V`,`conda -V` ,`pip list`,`conda list` ,ÒÔÉÏÓï¾ä£¬¿ÉÒÔ°ïÖúÄã²éÃ÷ĞÂ½¨µÄĞéÄâ»·¾³ÓëÔ­Ê¼»·¾³ÊÇ·ñ¹«ÓÃÒ»¸öinterpreter£¬»òÕß¹«ÓÃÒ»¸± pip/conda ¹ÜÀí°ü¡£
+module åº”è¯¥æ¯”è¾ƒå¹²å‡€ã€‚
+æ­¤æ—¶ï¼Œéœ€è¦åšä¸€ä¸‹ï¼Œæ£€æŸ¥ï¼š
+`pip -V`,`conda -V` ,`pip list`,`conda list` ,ä»¥ä¸Šè¯­å¥ï¼Œå¯ä»¥å¸®åŠ©ä½ æŸ¥æ˜æ–°å»ºçš„è™šæ‹Ÿç¯å¢ƒä¸åŸå§‹ç¯å¢ƒæ˜¯å¦å…¬ç”¨ä¸€ä¸ªinterpreterï¼Œæˆ–è€…å…¬ç”¨ä¸€å‰¯ pip/conda ç®¡ç†åŒ…ã€‚
 <br>
-Ò»µ©·¢ÏÖ¹«ÓÃÒ»¸öinterpreter£¬»òÕß¹«ÓÃÒ»¸± pip/conda ¹ÜÀí°ü£¬Ö®ºó°²×°pytorch£¬¾Í»á³öÏÖerror¡£
+ä¸€æ—¦å‘ç°å…¬ç”¨ä¸€ä¸ªinterpreterï¼Œæˆ–è€…å…¬ç”¨ä¸€å‰¯ pip/conda ç®¡ç†åŒ…ï¼Œä¹‹åå®‰è£…pytorchï¼Œå°±ä¼šå‡ºç°errorã€‚
  
  <br>
- pytorch µÄ ÒÀÀµ°ü£º<br>
- [PyTorchÈëÃÅ½Ì³Ì](https://www.jianshu.com/p/d66319506dd7)<br>
- pytorchĞèÒªnumpy~£¬ÇëÈ·±£numpyµÄÕı³£~~
-### [pytorchÔÚwindows10ÉÏ°²×°Ê¹ÓÃ](https://blog.csdn.net/cuixing001/article/details/81952116)
+ pytorch çš„ ä¾èµ–åŒ…ï¼š<br>
+ [PyTorchå…¥é—¨æ•™ç¨‹](https://www.jianshu.com/p/d66319506dd7)<br>
+ pytorchéœ€è¦numpy~ï¼Œè¯·ç¡®ä¿numpyçš„æ­£å¸¸~~
+### [pytorchåœ¨windows10ä¸Šå®‰è£…ä½¿ç”¨](https://blog.csdn.net/cuixing001/article/details/81952116)
  <br>
- ²âÊÔpytorch ÊÇ·ñ°²×°ÍêºÃ£º
+ æµ‹è¯•pytorch æ˜¯å¦å®‰è£…å®Œå¥½ï¼š
  `import torch
   A = torch.randn(3,3)
   print(A)
   `
- ÈçÊÇ³öÏÖ`from torch._C import * ImportError: DLL load failed: ÕÒ²»µ½Ö¸¶¨µÄÄ£¿é¡£`
+ å¦‚æ˜¯å‡ºç°`from torch._C import * ImportError: DLL load failed: æ‰¾ä¸åˆ°æŒ‡å®šçš„æ¨¡å—ã€‚`
  <br>
- ¿ÉÒÔÇĞ»»ÎªÔ­Ê¼µÄ»·¾³£¬ÔÙ´Î²âÊÔ£º<br>
+ å¯ä»¥åˆ‡æ¢ä¸ºåŸå§‹çš„ç¯å¢ƒï¼Œå†æ¬¡æµ‹è¯•ï¼š<br>
  `import torch
   A = torch.randn(3,3)
   print(A)
   `
-  ÒòÎªÄãºÜÓĞ¿ÉÄÜ½«pytorch°²×°µ½Ô­Ê¼»·¾³È¥ÁË¡£
+  å› ä¸ºä½ å¾ˆæœ‰å¯èƒ½å°†pytorchå®‰è£…åˆ°åŸå§‹ç¯å¢ƒå»äº†ã€‚
   
-È»ºóÔÙÈ¥ÔÄ¶ÁÏÂÃæµÄ½Ì³Ì£º
+ç„¶åå†å»é˜…è¯»ä¸‹é¢çš„æ•™ç¨‹ï¼š
  
 * https://blog.csdn.net/sunny_580/article/details/89476176?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
 * https://cloud.tencent.com/developer/article/1451477

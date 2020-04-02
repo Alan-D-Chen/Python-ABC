@@ -28,7 +28,7 @@ conda可以理解为一个工具，也是一个可执行命令，其核心功能
 
 ======================================================================  <br>
 > ### 如何安装 Anaconda？<br>
-！[图片](https://github.com/Alan-D-Chen/Python-ABC/blob/master/pics/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200402163730.png)
+![图片](https://github.com/Alan-D-Chen/Python-ABC/blob/master/pics/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200402163730.png)
 <br>
 [**Anaconda 的安装教程（图文）**](https://blog.csdn.net/weixin_43715458/article/details/100096496)
 ps: 个人建议：记录好安装路径<br>

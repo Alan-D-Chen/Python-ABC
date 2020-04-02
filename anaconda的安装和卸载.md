@@ -36,6 +36,24 @@ ps: 个人建议：记录好安装路径<br>
 `１.下载anaconda ,可以是最新版本了; `<br>
 `２.输入命令：` `conda list` `,如果显示一系列安装包，证明安装完毕;`<br>
 
+> ### 如何安装Pycharm？
+<br>
+>> Tips:
+<br>
+`where python`，查看python的解释器 interpreter .<br>
+>> 在初始设置pycharm的时候，一定要注意设置文件夹和base interpreter的位置（路径），最起码要记录这些路径和文件的位置~！！<br>
+* [pycharm的卸载和安装](https://www.pianshen.com/article/5474693243/)<br>
+* [Python：查看解释器的位置](https://www.cnblogs.com/maoerbao/p/11519013.html)<br>
+>>> 以前学Python时，有时出现这样的情况：明明记得装了scipy包，怎么打import scipy报错说我没这个包？<br>
+问题出在，你的电脑上安装了不止一个Python...<br>
+而每安装一个包，仅仅在这个Python安装路径里的Lib\site-packages\里，在别的里面并没有。<br>
+这里介绍一个很轻巧的软件Everything，它方便你很快的查找本地计算机里的文件。我们输入python.exe，发现竟然出来了一堆python.<br>
+
+
+* [PyCharm 使用教程看这篇就足够](https://www.jianshu.com/p/2a4d388b86e9)<br>
+* [Pycharm简单使用教程](https://blog.csdn.net/qq_40130759/article/details/79421242)<br>
+* [PyCharm彻底删除项目](https://zhuanlan.zhihu.com/p/93844554)<br>
+* [Pycharm2020最新激活码汇总|pycharm永久激活](https://www.jianshu.com/p/16614b6ee4f8)<br>
 
 
 

@@ -47,10 +47,15 @@ ps: 个人建议：记录好安装路径<br>
 
 >> 在初始设置pycharm的时候，一定要注意设置文件夹和base interpreter的位置（路径），最起码要记录这些路径和文件的位置~！！<br>
 
+![图片3]
+
 * [pycharm的卸载和安装](https://www.pianshen.com/article/5474693243/)<br>
 * [Python：查看解释器的位置](https://www.cnblogs.com/maoerbao/p/11519013.html)<br>
 
 >>> 以前学Python时，有时出现这样的情况：明明记得装了scipy包，怎么打import scipy报错说我没这个包？<br>
+>>> 有一些IDE会有自己默认的interpreter，在使用pycharm 终端修改interpreter有时，无法和我们想要的interpreter很好的对应，这个时候重装IDE（PyCharm）可以理清关系，节约不少时间。<br>
+在git bash 、 CMD  或者 PyCharm 里面的 Terminal可以使用 `python -V` 或者 `where python`  与 PyCharm 页面化（Settings->）(如下图)进行比较！
+![图片2]
 
 问题出在，你的电脑上安装了不止一个Python...<br>
 而每安装一个包，仅仅在这个Python安装路径里的Lib\site-packages\里，在别的里面并没有。<br>

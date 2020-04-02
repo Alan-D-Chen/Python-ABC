@@ -19,7 +19,31 @@ conda可以理解为一个工具，也是一个可执行命令，其核心功能
 首先是命令行：
 ## [windows安装Python虚拟环境](https://www.cnblogs.com/sisa/p/10824191.html)
 这里只要做到第六步`退出virtualenv  deactivate.bat`，就可以了，当然也可以继续下面的步骤。
-
+>>> 如果出现了
+<br>
+`ERROR: Exception:
+Traceback (most recent call last):
+  File "C:\Users\Anaconda3\lib\site-packages\pip\_internal\cli\base_command.py", line 186, in _main
+    status = self.run(options, args)
+  File "C:\Users\Anaconda3\lib\site-packages\pip\_internal\commands\install.py", line 258, in run
+    isolated_mode=options.isolated_mode,
+  File "C:\Users\Anaconda3\lib\site-packages\pip\_internal\commands\install.py", line 604, in decide_user_install
+    if site_packages_writable(root=root_path, isolated=isolated_mode):
+  File "C:\Users\Anaconda3\lib\site-packages\pip\_internal\commands\install.py", line 549, in site_packages_writable
+    test_writable_dir(d) for d in set(get_lib_location_guesses(**kwargs))
+  File "C:\Users\Anaconda3\lib\site-packages\pip\_internal\commands\install.py", line 549, in <genexpr>
+    test_writable_dir(d) for d in set(get_lib_location_guesses(**kwargs))
+  File "C:\Users\Anaconda3\lib\site-packages\pip\_internal\utils\filesystem.py", line 140, in test_writable_dir
+    return _test_writable_dir_win(path)
+  File "C:\Users\Anaconda3\lib\site-packages\pip\_internal\utils\filesystem.py", line 153, in _test_writable_dir_win
+    fd = os.open(file, os.O_RDWR | os.O_CREAT | os.O_EXCL)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Anaconda3\\Lib\\site-packages\\accesstest_deleteme_fishfingers_custard_n0oqqf'
+`
+<br>
+可以尝试以管理员身份启动CMD，然后再次尝试。
+<br>
+这里有这个问题的详细分析，具体情况，具体分析：[Python报错：PermissionError: [Errno 13] Permission denied解决方案详解](https://blog.csdn.net/shuiyixin/article/details/90370387)
+<br>
 此处，如果出现了问题，可以参考一下教程：
 * [Windows下搭建Python虚拟环境](https://www.jianshu.com/p/ad2d8ee4a679)
 * [windows下python虚拟环境virtualenv安装和使用](https://www.cnblogs.com/sunyllove/p/9748995.html)

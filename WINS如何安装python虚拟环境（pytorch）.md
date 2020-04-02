@@ -42,14 +42,19 @@ PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Anaconda3\\Lib\\site-
 `
 
 <br>
+
 >>> 可以尝试以管理员身份启动CMD，然后再次尝试。
+
 <br>
+
 >>> 这里有这个问题的详细分析，具体情况，具体分析：
 
 >>> [Python报错：PermissionError: Errno 13 Permission denied解决方案详解](https://blog.csdn.net/shuiyixin/article/details/90370387)
+
 <br>
-<br>
+
 此处，如果出现了问题，可以参考一下教程：
+
 * [Windows下搭建Python虚拟环境](https://www.jianshu.com/p/ad2d8ee4a679)
 * [windows下python虚拟环境virtualenv安装和使用](https://www.cnblogs.com/sunyllove/p/9748995.html)
 * [笔记1](https://www.jianshu.com/p/3b9b218b66a3)

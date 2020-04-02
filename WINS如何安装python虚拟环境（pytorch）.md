@@ -11,7 +11,7 @@ conda可以理解为一个工具，也是一个可执行命令，其核心功能
 >>>强烈建议先使用命令行创建虚拟环境然后使用IDE加载虚拟环境，这样比较保险！！~~~
 <br>
 
-![图片1](https://github.com/Alan-D-Chen/Python-ABC/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200813.png)
+![图片1](https://github.com/Alan-D-Chen/Python-ABC/blob/master/pics/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200813.png)
 
 <br>
 
@@ -31,7 +31,7 @@ conda可以理解为一个工具，也是一个可执行命令，其核心功能
 
 <br>
 
-![图片2](https://github.com/Alan-D-Chen/Python-ABC/blob/master/Inked%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330182919_LI.jpg)
+![图片2](https://github.com/Alan-D-Chen/Python-ABC/blob/master/pics/Inked%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330182919_LI.jpg)
 
 <br>
 
@@ -45,7 +45,7 @@ B无法激活环境很有可能跟pycharm无法区分pip有关系~<br>C是cmd，
 当你使用命令行，激活完成虚拟环境之后会出现前缀（虚拟环境名称）的符头。
 <br>
 
-![图片3](https://github.com/Alan-D-Chen/Python-ABC/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200821.png)
+![图片3](https://github.com/Alan-D-Chen/Python-ABC/blob/master/pics/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200821.png)
 
 如果你喜欢命令行操作的话，工作已经基本完成了。<br>
 
@@ -65,7 +65,7 @@ B无法激活环境很有可能跟pycharm无法区分pip有关系~<br>C是cmd，
  
  <br>
  
- ![图片4](https://github.com/Alan-D-Chen/Python-ABC/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200835.png)
+ ![图片4](https://github.com/Alan-D-Chen/Python-ABC/blob/master/pics/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200330200835.png)
  
  <br> 
 module 应该比较干净。此时，需要做一下检查：

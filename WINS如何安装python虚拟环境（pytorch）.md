@@ -21,6 +21,7 @@ conda可以理解为一个工具，也是一个可执行命令，其核心功能
 这里只要做到第六步`退出virtualenv  deactivate.bat`，就可以了，当然也可以继续下面的步骤。
 >>> 如果出现了
 <br>
+
 `ERROR: Exception:
 Traceback (most recent call last):
   File "C:\Users\Anaconda3\lib\site-packages\pip\_internal\cli\base_command.py", line 186, in _main
@@ -39,10 +40,14 @@ Traceback (most recent call last):
     fd = os.open(file, os.O_RDWR | os.O_CREAT | os.O_EXCL)
 PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Anaconda3\\Lib\\site-packages\\accesstest_deleteme_fishfingers_custard_n0oqqf'
 `
+
 <br>
-可以尝试以管理员身份启动CMD，然后再次尝试。
+>>> 可以尝试以管理员身份启动CMD，然后再次尝试。
 <br>
-这里有这个问题的详细分析，具体情况，具体分析：[Python报错：PermissionError: [Errno 13] Permission denied解决方案详解](https://blog.csdn.net/shuiyixin/article/details/90370387)
+>>> 这里有这个问题的详细分析，具体情况，具体分析：
+
+>>> [Python报错：PermissionError: Errno 13 Permission denied解决方案详解](https://blog.csdn.net/shuiyixin/article/details/90370387)
+<br>
 <br>
 此处，如果出现了问题，可以参考一下教程：
 * [Windows下搭建Python虚拟环境](https://www.jianshu.com/p/ad2d8ee4a679)

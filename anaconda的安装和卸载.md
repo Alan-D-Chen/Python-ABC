@@ -1,39 +1,40 @@
-# ÈçºÎ´´½¨Python (°²×°Anaconda)µÄÔËĞĞ»·¾³
-## Python »ù´¡½Ì³Ì--½âÊÍÆ÷µÄ´´½¨ºÍÅäÖÃ
-### ÒÔ´´½¨anacondaÎªÀı
+# å¦‚ä½•åˆ›å»ºPython (å®‰è£…Anaconda)çš„è¿è¡Œç¯å¢ƒ
+## Python åŸºç¡€æ•™ç¨‹--è§£é‡Šå™¨çš„åˆ›å»ºå’Œé…ç½®
+### ä»¥åˆ›å»ºanacondaä¸ºä¾‹
 ======================================================================  <br>
-£¨For more information, please go to ***[Alan D. Chen](https://github.com/Alan-D-Chen/Python-ABC)*** , upgrading~~£©<br>
+ï¼ˆFor more information, please go to ***[Alan D. Chen](https://github.com/Alan-D-Chen/Python-ABC)*** , upgrading~~ï¼‰<br>
 
-_**AnacondaÓëcondaÇø±ğ 
-conda¿ÉÒÔÀí½âÎªÒ»¸ö¹¤¾ß£¬Ò²ÊÇÒ»¸ö¿ÉÖ´ĞĞÃüÁî£¬ÆäºËĞÄ¹¦ÄÜÊÇ°ü¹ÜÀíÓë»·¾³¹ÜÀí¡£°ü¹ÜÀíÓëpipµÄÊ¹ÓÃÀàËÆ£¬»·¾³¹ÜÀíÔòÔÊĞíÓÃ»§·½±ãµØ°²×°²»Í¬°æ±¾µÄpython²¢¿ÉÒÔ¿ìËÙÇĞ»»¡£ condaµÄÉè¼ÆÀíÄî¡ª¡ªconda½«¼¸ºõËùÓĞµÄ¹¤¾ß¡¢µÚÈı·½°ü¶¼µ±×öpackage¶Ô´ı£¬ÉõÖÁ°üÀ¨pythonºÍconda×ÔÉí AnacondaÔòÊÇÒ»¸ö´ò°üµÄ¼¯ºÏ£¬ÀïÃæÔ¤×°ºÃÁËconda¡¢Ä³¸ö°æ±¾µÄpython¡¢ÖÚ¶àpackages¡¢¿ÆÑ§¼ÆËã¹¤¾ßµÈµÈ¡£**_
-##### (:-)[git ÔõÃ´ÔÚ²Ö¿âÀïÃæÉÏ´«Ò»¸öÎÄ¼ş¼Ğµ½github?](https://www.zhihu.com/question/53015611/answer/594940741)
+_**Anacondaä¸condaåŒºåˆ« 
+condaå¯ä»¥ç†è§£ä¸ºä¸€ä¸ªå·¥å…·ï¼Œä¹Ÿæ˜¯ä¸€ä¸ªå¯æ‰§è¡Œå‘½ä»¤ï¼Œå…¶æ ¸å¿ƒåŠŸèƒ½æ˜¯åŒ…ç®¡ç†ä¸ç¯å¢ƒç®¡ç†ã€‚åŒ…ç®¡ç†ä¸pipçš„ä½¿ç”¨ç±»ä¼¼ï¼Œç¯å¢ƒç®¡ç†åˆ™å…è®¸ç”¨æˆ·æ–¹ä¾¿åœ°å®‰è£…ä¸åŒç‰ˆæœ¬çš„pythonå¹¶å¯ä»¥å¿«é€Ÿåˆ‡æ¢ã€‚ condaçš„è®¾è®¡ç†å¿µâ€”â€”condaå°†å‡ ä¹æ‰€æœ‰çš„å·¥å…·ã€ç¬¬ä¸‰æ–¹åŒ…éƒ½å½“åšpackageå¯¹å¾…ï¼Œç”šè‡³åŒ…æ‹¬pythonå’Œcondaè‡ªèº« Anacondaåˆ™æ˜¯ä¸€ä¸ªæ‰“åŒ…çš„é›†åˆï¼Œé‡Œé¢é¢„è£…å¥½äº†condaã€æŸä¸ªç‰ˆæœ¬çš„pythonã€ä¼—å¤špackagesã€ç§‘å­¦è®¡ç®—å·¥å…·ç­‰ç­‰ã€‚**_
+##### (:-)[git æ€ä¹ˆåœ¨ä»“åº“é‡Œé¢ä¸Šä¼ ä¸€ä¸ªæ–‡ä»¶å¤¹åˆ°github?](https://www.zhihu.com/question/53015611/answer/594940741)
 ======================================================================  <br>
-> ### pythonÊÇ½âÊÍĞÔÓïÑÔ <br>
-[±àÒëÆ÷ºÍ½âÊÍÆ÷Ö®¼äÓĞÊ²Ã´Çø±ğ:](https://www.jianshu.com/p/5e0a34715693)(for more details)
- ### ¸ù¾İËûÃÇµÄ¶¨Òå£¬±àÒëÆ÷ºÍ½âÊÍÆ÷Ö®¼äµÄÇø±ğÃ²ËÆÊ®·ÖÃ÷ÏÔ£º
-* ½âÊÍÆ÷£ºÖ±½ÓÖ´ĞĞÓÃ±à³ÌÓïÑÔ±àĞ´µÄÖ¸ÁîµÄ³ÌĞò
-* ±àÒëÆ÷£º°ÑÔ´´úÂë×ª»»³É£¨·­Òë£©µÍ¼¶ÓïÑÔµÄ³ÌĞò
+> ### pythonæ˜¯è§£é‡Šæ€§è¯­è¨€ <br>
+[ç¼–è¯‘å™¨å’Œè§£é‡Šå™¨ä¹‹é—´æœ‰ä»€ä¹ˆåŒºåˆ«:](https://www.jianshu.com/p/5e0a34715693)(for more details)
+ ### æ ¹æ®ä»–ä»¬çš„å®šä¹‰ï¼Œç¼–è¯‘å™¨å’Œè§£é‡Šå™¨ä¹‹é—´çš„åŒºåˆ«è²Œä¼¼ååˆ†æ˜æ˜¾ï¼š
+* è§£é‡Šå™¨ï¼šç›´æ¥æ‰§è¡Œç”¨ç¼–ç¨‹è¯­è¨€ç¼–å†™çš„æŒ‡ä»¤çš„ç¨‹åº
+* ç¼–è¯‘å™¨ï¼šæŠŠæºä»£ç è½¬æ¢æˆï¼ˆç¿»è¯‘ï¼‰ä½çº§è¯­è¨€çš„ç¨‹åº
 
 ======================================================================  <br>
-> ### ÈçºÎĞ¶ÔØanaconda£¿
-ÓÅÏÈÑ¡ÔñÕâ¸ö½Ì³Ì£º<br>
-[**Ğ¶ÔØAnaconda**](https://www.cnblogs.com/zhif97/p/12099903.html) (ÍøËÙÒªºÃ~£¡)<br>
-[**ÈçºÎÊ¹ÓÃAnaconda PromptÆô¶¯ÎÄ¼şÄ¿Â¼**](https://jingyan.baidu.com/article/ca41422f6e3d931eaf99ed71.html)<br>
-[**AnacondaÈçºÎĞ¶ÔØ£¿**](https://blog.csdn.net/u014723479/article/details/86738318)
+> ### å¦‚ä½•å¸è½½anacondaï¼Ÿ
+ä¼˜å…ˆé€‰æ‹©è¿™ä¸ªæ•™ç¨‹ï¼š<br>
+[**å¸è½½Anaconda**](https://www.cnblogs.com/zhif97/p/12099903.html) (ç½‘é€Ÿè¦å¥½~ï¼)<br>
+[**å¦‚ä½•ä½¿ç”¨Anaconda Promptå¯åŠ¨æ–‡ä»¶ç›®å½•**](https://jingyan.baidu.com/article/ca41422f6e3d931eaf99ed71.html)<br>
+[**Anacondaå¦‚ä½•å¸è½½ï¼Ÿ**](https://blog.csdn.net/u014723479/article/details/86738318)
 <br>
-* [ÈçºÎ³¹µ×ÍêÈ«É¾³ıanaconda ½øĞĞÖØ×°](https://blog.csdn.net/qq_41549459/article/details/88323434)<br>
-* [anaconda´´½¨¡¢É¾³ı¡¢ÍË³ö»·¾³](https://blog.csdn.net/frank_ljiang/article/details/90317681)<br>
-* [AnacondaÖ®conda³£ÓÃÃüÁî½éÉÜ(°²×°¡¢¸üĞÂ¡¢É¾³ı)](https://www.jb51.net/article/171350.htm)<br>
-* [²»ÄÜ´í¹ı£¡³¬È«Anaconda£¨PythonÕûºÏ°ü£©µ¼ĞŞ£¨Í¼ÎÄÏê½â£©](https://baijiahao.baidu.com/s?id=1650241306204278507&wfr=spider&for=pc)
+* [å¦‚ä½•å½»åº•å®Œå…¨åˆ é™¤anaconda è¿›è¡Œé‡è£…](https://blog.csdn.net/qq_41549459/article/details/88323434)<br>
+* [anacondaåˆ›å»ºã€åˆ é™¤ã€é€€å‡ºç¯å¢ƒ](https://blog.csdn.net/frank_ljiang/article/details/90317681)<br>
+* [Anacondaä¹‹condaå¸¸ç”¨å‘½ä»¤ä»‹ç»(å®‰è£…ã€æ›´æ–°ã€åˆ é™¤)](https://www.jb51.net/article/171350.htm)<br>
+* [ä¸èƒ½é”™è¿‡ï¼è¶…å…¨Anacondaï¼ˆPythonæ•´åˆåŒ…ï¼‰å¯¼ä¿®ï¼ˆå›¾æ–‡è¯¦è§£ï¼‰](https://baijiahao.baidu.com/s?id=1650241306204278507&wfr=spider&for=pc)
 
 ======================================================================  <br>
-> ### ÈçºÎ°²×° Anaconda£¿<br>
+> ### å¦‚ä½•å®‰è£… Anacondaï¼Ÿ<br>
+ï¼[å›¾ç‰‡](https://github.com/Alan-D-Chen/Python-ABC/blob/master/pics/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200402163730.png)
+<br>
+[**Anaconda çš„å®‰è£…æ•™ç¨‹ï¼ˆå›¾æ–‡ï¼‰**](https://blog.csdn.net/weixin_43715458/article/details/100096496)
+ps: ä¸ªäººå»ºè®®ï¼šè®°å½•å¥½å®‰è£…è·¯å¾„<br>
 
-[**Anaconda µÄ°²×°½Ì³Ì£¨Í¼ÎÄ£©**](https://blog.csdn.net/weixin_43715458/article/details/100096496)
-ps: ¸öÈË½¨Òé£º¼ÇÂ¼ºÃ°²×°Â·¾¶<br>
-
-`£±.ÏÂÔØanaconda ,¿ÉÒÔÊÇ×îĞÂ°æ±¾ÁË; `<br>
-`£².ÊäÈëÃüÁî£º` `conda list` `,Èç¹ûÏÔÊ¾Ò»ÏµÁĞ°²×°°ü£¬Ö¤Ã÷°²×°Íê±Ï;`<br>
+`ï¼‘.ä¸‹è½½anaconda ,å¯ä»¥æ˜¯æœ€æ–°ç‰ˆæœ¬äº†; `<br>
+`ï¼’.è¾“å…¥å‘½ä»¤ï¼š` `conda list` `,å¦‚æœæ˜¾ç¤ºä¸€ç³»åˆ—å®‰è£…åŒ…ï¼Œè¯æ˜å®‰è£…å®Œæ¯•;`<br>
 
 
 

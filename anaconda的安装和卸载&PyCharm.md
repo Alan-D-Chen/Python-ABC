@@ -22,7 +22,8 @@ https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
 Anaconda3-4.3.0.1-Windows-x86_64.exe 对应 python3.6.0<br>
 Anaconda3-5.1.0-Windows-x86_64.exe 对应 python3.6.3<br>
 Anaconda3-5.2.0-Windows-x86_64.exe 对应 python3.6.5<br>
-
+Anaconda3-5.3.1-Windows-x86_64.exe  和 Anaconda3-5.3.0-Windows-x86_64.exe  对应 python3.7.0
+Anaconda3-2020.02-Windows-x86_64.exe  对应python3.7.1<br>
 >>> ### Anaconda 所有版本下载
 因为在主机上配置Tensorflow环境，下载了最新的ananconda3-5.3.0，发现兼容性不是很好，<br>
 于是又退回到Anaconda3-5.2.0。python 3.7.0（以及后继版本）兼容性不好，而且不稳定，<br>
@@ -37,8 +38,6 @@ anaconda所有版本链接：https://repo.continuum.io/archive/
 清华大学开源软件镜像站：https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
 
 ![图片5](https://github.com/Alan-D-Chen/Python-ABC/blob/master/pics/微信图片_20200403155043.png)
-
-
 
 ======================================================================  <br>
 > ### 如何卸载anaconda？
@@ -59,8 +58,8 @@ anaconda所有版本链接：https://repo.continuum.io/archive/
 [**Anaconda 的安装教程（图文）**](https://blog.csdn.net/weixin_43715458/article/details/100096496)
 ps: 个人建议：记录好安装路径<br>
 
-`１.下载anaconda ,可以是最新版本了; `<br>
-`２.输入命令：` `conda list` `,如果显示一系列安装包，证明安装完毕;`<br>
+`１.下载anaconda ,可以是最新版本了; ` <br>
+`２.输入命令：` `conda list` `,如果显示一系列安装包，证明安装完毕;` <br>
 
 > ### 如何安装Pycharm？
 <br>

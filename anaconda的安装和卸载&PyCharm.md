@@ -15,6 +15,26 @@ conda可以理解为一个工具，也是一个可执行命令，其核心功能
 * 编译器：把源代码转换成（翻译）低级语言的程序
 
 ======================================================================  <br>
+>> ## 特别提示：官网是最新版本的anaconda，对应的python是3.7的。<br>
+我要找3.6的版本所有版本在这个网站都可以下载（清华大学开源软件镜像站）：<br>
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/ 
+<br>
+Anaconda3-4.3.0.1-Windows-x86_64.exe 对应 python3.6.0<br>
+Anaconda3-5.1.0-Windows-x86_64.exe 对应 python3.6.3<br>
+Anaconda3-5.2.0-Windows-x86_64.exe 对应 python3.6.5<br>
+
+>>> ### Anaconda 所有版本下载
+因为在主机上配置Tensorflow环境，下载了最新的ananconda3-5.3.0，发现兼容性不是很好，<br>
+于是又退回到Anaconda3-5.2.0。python 3.7.0（以及后继版本）兼容性不好，而且不稳定，<br>
+不支持tensorflow框架，而且不支持numpy（在 `import numpy` 会报错~！！！），而pytorch框架需要numpy, <br>
+python 3.7.0对机器学习的两大框架都不友好！！~~
+[**Anaconda 所有版本下载**](https://blog.csdn.net/weixin_39653948/article/details/83214703)
+ 
+
+
+
+
+======================================================================  <br>
 > ### 如何卸载anaconda？
 优先选择这个教程：<br>
 [**卸载Anaconda**](https://www.cnblogs.com/zhif97/p/12099903.html) (网速要好~！)<br>

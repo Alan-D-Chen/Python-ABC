@@ -30,7 +30,13 @@ Anaconda3-5.2.0-Windows-x86_64.exe 对应 python3.6.5<br>
 python 3.7.0对机器学习的两大框架都不友好！！~~
 [**Anaconda 所有版本下载**](https://blog.csdn.net/weixin_39653948/article/details/83214703)
  
+[**anaconda历史版本下载**](https://www.cnblogs.com/xiaochouk/p/12081633.html)
+anaconda历史版本安装：<br>
+anaconda所有版本链接：https://repo.continuum.io/archive/
+<br>
+清华大学开源软件镜像站：https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
 
+![图片5](https://github.com/Alan-D-Chen/Python-ABC/blob/master/pics/微信图片_20200403155043.png)
 
 
 

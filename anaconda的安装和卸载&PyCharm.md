@@ -54,24 +54,24 @@ anaconda所有版本链接：https://repo.continuum.io/archive/
 <br>
 可以在使用pip的时候加参数-i https://pypi.tuna.tsinghua.edu.cn/simple
 <br>
-例如：pip install SomePackage -i https://pypi.tuna.tsinghua.edu.cn/simple
+例如：`pip install SomePackage -i https://pypi.tuna.tsinghua.edu.cn/simple`
 <br>
 这样就会从清华这边的镜像去安装SomePackage库。
 
 * **永久修改，一劳永逸：**
 
 <br>
-linux下，修改 ~/.pip/pip.conf (没有就创建一个)， 修改 index-url 为国内镜像地址，内容如下：
+linux下，修改 ` ~/.pip/pip.conf` (没有就创建一个)， 修改 `index-url ` 为国内镜像地址，内容如下：
 <br>
-[global]
+`[global]`
 <br>
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+`index-url = https://pypi.tuna.tsinghua.edu.cn/simple`
 <br>
-windows下，直接在user目录中创建一个pip目录，如：C:\Users\xx\pip，新建文件pip.ini，内容如下
+windows下，直接在user目录中创建一个pip目录，如： `C:\Users\xx\pip` ，新建文件 `pip.ini` ，内容如下
 <br>
-[global]
+`[global]`
 <br>
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+`index-url = https://pypi.tuna.tsinghua.edu.cn/simple`
 
 ======================================================================  <br>
 > ### 如何卸载anaconda？
@@ -104,7 +104,8 @@ ps: 个人建议：记录好安装路径<br>
 
 `where python`，查看python的解释器 interpreter .<br>
 
->> 在初始设置pycharm的时候，一定要注意设置文件夹和base interpreter的位置（路径），最起码要记录这些路径和文件的位置~！！<br>
+>> 在初始设置pycharm的时候，一定要注意设置文件夹和base interpreter的位置（路径），最起码要记录这些路径和文件的位置~！！
+<br>
 
 ![图片3](https://github.com/Alan-D-Chen/Python-ABC/blob/master/pics/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200402220332.png)
 
@@ -114,6 +115,7 @@ ps: 个人建议：记录好安装路径<br>
 >>> 以前学Python时，有时出现这样的情况：明明记得装了scipy包，怎么打import scipy报错说我没这个包？<br>
 >>> 有一些IDE会有自己默认的interpreter，在使用pycharm 终端修改interpreter有时，无法和我们想要的interpreter很好的对应，这个时候重装IDE（PyCharm）可以理清关系，节约不少时间。<br>
 在git bash 、 CMD  或者 PyCharm 里面的 Terminal可以使用 `python -V` 或者 `where python`  与 PyCharm 页面化（Settings->）(如下图)进行比较！
+<br>
 ![图片2](https://github.com/Alan-D-Chen/Python-ABC/blob/master/pics/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200402220339.png)
 
 问题出在，你的电脑上安装了不止一个Python...<br>

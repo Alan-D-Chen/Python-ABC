@@ -133,4 +133,8 @@ ps: 个人建议：记录好安装路径<br>
 * [pycharm 的简单美化](https://hacpai.com/article/1566401537345)
 * [PyCharm下载主题以及个性化设置(详细)](https://blog.csdn.net/qq_41782425/article/details/85081107)
 
+>> Pycharm2020最新激活码汇总|pycharm永久激活(pycharm2020激活码 pycharm2020激活(永久激活）)
 
+* [pycharm2020激活码 pycharm2020激活(永久激活）](http://www.win7w.com/win10jihuo/25318.html)
+* [Pycharm2020最新激活码汇总|pycharm永久激活](https://www.jianshu.com/p/16614b6ee4f8)
+* [最新2019pycharm激活方式（pycharm破解、激活）]https://www.cnblogs.com/hyf20131113/p/10900836.html()

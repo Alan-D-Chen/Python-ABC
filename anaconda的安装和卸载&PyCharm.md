@@ -22,7 +22,7 @@ https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
 Anaconda3-4.3.0.1-Windows-x86_64.exe 对应 python3.6.0<br>
 Anaconda3-5.1.0-Windows-x86_64.exe 对应 python3.6.3<br>
 Anaconda3-5.2.0-Windows-x86_64.exe 对应 python3.6.5<br>
-Anaconda3-5.3.1-Windows-x86_64.exe  和 Anaconda3-5.3.0-Windows-x86_64.exe  对应 python3.7.0
+Anaconda3-5.3.1-Windows-x86_64.exe  和 Anaconda3-5.3.0-Windows-x86_64.exe  对应 python3.7.0 <br>
 Anaconda3-2020.02-Windows-x86_64.exe  对应python3.7.1<br>
 >>> ### Anaconda 所有版本下载
 因为在主机上配置Tensorflow环境，下载了最新的ananconda3-5.3.0，发现兼容性不是很好，<br>
@@ -30,7 +30,7 @@ Anaconda3-2020.02-Windows-x86_64.exe  对应python3.7.1<br>
 不支持tensorflow框架，而且不支持numpy（在 `import numpy` 会报错~！！！），而pytorch框架需要numpy, <br>
 python 3.7.0对机器学习的两大框架都不友好！！~~
 [**Anaconda 所有版本下载**](https://blog.csdn.net/weixin_39653948/article/details/83214703)
- 
+ <br>
 [**anaconda历史版本下载**](https://www.cnblogs.com/xiaochouk/p/12081633.html)
 anaconda历史版本安装：<br>
 anaconda所有版本链接：https://repo.continuum.io/archive/

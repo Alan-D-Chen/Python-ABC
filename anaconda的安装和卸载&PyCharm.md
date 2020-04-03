@@ -32,12 +32,46 @@ python 3.7.0对机器学习的两大框架都不友好！！~~
 [**Anaconda 所有版本下载**](https://blog.csdn.net/weixin_39653948/article/details/83214703)
  <br>
 [**anaconda历史版本下载**](https://www.cnblogs.com/xiaochouk/p/12081633.html)
+<br>
 anaconda历史版本安装：<br>
 anaconda所有版本链接：https://repo.continuum.io/archive/
 <br>
 清华大学开源软件镜像站：https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
 
 ![图片5](https://github.com/Alan-D-Chen/Python-ABC/blob/master/pics/微信图片_20200403155043.png)
+
+======================================================================  <br>
+>> ## [Python 更换国内pip源](https://blog.csdn.net/qq_14994573/article/details/80934201)
+
+豆瓣：http://pypi.douban.com/simple/
+<br>
+中科大：https://pypi.mirrors.ustc.edu.cn/simple/
+<br>
+清华：https://pypi.tuna.tsinghua.edu.cn/simple
+<br>
+
+* **一次性使用：**
+<br>
+可以在使用pip的时候加参数-i https://pypi.tuna.tsinghua.edu.cn/simple
+<br>
+例如：pip install SomePackage -i https://pypi.tuna.tsinghua.edu.cn/simple
+<br>
+这样就会从清华这边的镜像去安装SomePackage库。
+
+* **永久修改，一劳永逸：**
+
+<br>
+linux下，修改 ~/.pip/pip.conf (没有就创建一个)， 修改 index-url 为国内镜像地址，内容如下：
+<br>
+[global]
+<br>
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+<br>
+windows下，直接在user目录中创建一个pip目录，如：C:\Users\xx\pip，新建文件pip.ini，内容如下
+<br>
+[global]
+<br>
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 
 ======================================================================  <br>
 > ### 如何卸载anaconda？

@@ -6,22 +6,26 @@
  * @Description: In User Settings Edit
  * @FilePath: \pycharm-items-github\test.md
  -->
-# ÈçºÎÔ¶³Ì·þÎñÆ÷Ê¹ÓÃÐéÄâ»·¾³£¨ÐéÄâ»·¾³µÄ½âÊÍÆ÷£©
-## Python »ù´¡½Ì³Ì--ÐéÄâ»·¾³µÄ´´½¨ºÍÅäÖÃ
-### ÒÔpycharmºÍlinux ·þÎñÆ÷ÎªÀý
+# å¦‚ä½•è¿œç¨‹æœåŠ¡å™¨ä½¿ç”¨è™šæ‹ŸçŽ¯å¢ƒï¼ˆè™šæ‹ŸçŽ¯å¢ƒçš„è§£é‡Šå™¨ï¼‰
+## Python åŸºç¡€æ•™ç¨‹--è™šæ‹ŸçŽ¯å¢ƒçš„åˆ›å»ºå’Œé…ç½®
+### ä»¥pycharmå’Œlinux æœåŠ¡å™¨ä¸ºä¾‹
 ======================================================================  <br>
-£¨For more information, please go to ***[Alan D. Chen](https://github.com/Alan-D-Chen/Python-ABC)*** , upgrading~~£©<br>
+ï¼ˆFor more information, please go to ***[Alan D. Chen](https://github.com/Alan-D-Chen/Python-ABC)*** , upgrading~~ï¼‰<br>
 
-_**AnacondaÓëcondaÇø±ð 
-conda¿ÉÒÔÀí½âÎªÒ»¸ö¹¤¾ß£¬Ò²ÊÇÒ»¸ö¿ÉÖ´ÐÐÃüÁî£¬ÆäºËÐÄ¹¦ÄÜÊÇ°ü¹ÜÀíÓë»·¾³¹ÜÀí¡£°ü¹ÜÀíÓëpipµÄÊ¹ÓÃÀàËÆ£¬»·¾³¹ÜÀíÔòÔÊÐíÓÃ»§·½±ãµØ°²×°²»Í¬°æ±¾µÄpython²¢¿ÉÒÔ¿ìËÙÇÐ»»¡£ condaµÄÉè¼ÆÀíÄî¡ª¡ªconda½«¼¸ºõËùÓÐµÄ¹¤¾ß¡¢µÚÈý·½°ü¶¼µ±×öpackage¶Ô´ý£¬ÉõÖÁ°üÀ¨pythonºÍconda×ÔÉí AnacondaÔòÊÇÒ»¸ö´ò°üµÄ¼¯ºÏ£¬ÀïÃæÔ¤×°ºÃÁËconda¡¢Ä³¸ö°æ±¾µÄpython¡¢ÖÚ¶àpackages¡¢¿ÆÑ§¼ÆËã¹¤¾ßµÈµÈ¡£**_
+_**Anacondaä¸ŽcondaåŒºåˆ« 
+condaå¯ä»¥ç†è§£ä¸ºä¸€ä¸ªå·¥å…·ï¼Œä¹Ÿæ˜¯ä¸€ä¸ªå¯æ‰§è¡Œå‘½ä»¤ï¼Œå…¶æ ¸å¿ƒåŠŸèƒ½æ˜¯åŒ…ç®¡ç†ä¸ŽçŽ¯å¢ƒç®¡ç†ã€‚åŒ…ç®¡ç†ä¸Žpipçš„ä½¿ç”¨ç±»ä¼¼ï¼ŒçŽ¯å¢ƒç®¡ç†åˆ™å…è®¸ç”¨æˆ·æ–¹ä¾¿åœ°å®‰è£…ä¸åŒç‰ˆæœ¬çš„pythonå¹¶å¯ä»¥å¿«é€Ÿåˆ‡æ¢ã€‚ condaçš„è®¾è®¡ç†å¿µâ€”â€”condaå°†å‡ ä¹Žæ‰€æœ‰çš„å·¥å…·ã€ç¬¬ä¸‰æ–¹åŒ…éƒ½å½“åšpackageå¯¹å¾…ï¼Œç”šè‡³åŒ…æ‹¬pythonå’Œcondaè‡ªèº« Anacondaåˆ™æ˜¯ä¸€ä¸ªæ‰“åŒ…çš„é›†åˆï¼Œé‡Œé¢é¢„è£…å¥½äº†condaã€æŸä¸ªç‰ˆæœ¬çš„pythonã€ä¼—å¤špackagesã€ç§‘å­¦è®¡ç®—å·¥å…·ç­‰ç­‰ã€‚**_
 
 ======================================================================
   
-* ÔÚwinsÏµÍ³ÏÂÊ¹ÓÃpycharm£¬½áºÏCMD¿ÉÒÔºÜ·½±ãµÄ´´½¨ÐéÄâ»·¾³ºÍÀûÓÃpycharm¹ÜÀíºÍÊ¹ÓÃÐéÄâ»·¾³¡£[for
-help](https://github.com/Alan-D-Chen/Python-ABC/blob/master/WINSÈçºÎ°²×°pythonÐéÄâ»·¾³%EF%BC%88pytorch%EF%BC%89.md)
+* åœ¨winsç³»ç»Ÿä¸‹ä½¿ç”¨pycharmï¼Œç»“åˆCMDå¯ä»¥å¾ˆæ–¹ä¾¿çš„åˆ›å»ºè™šæ‹ŸçŽ¯å¢ƒå’Œåˆ©ç”¨pycharmç®¡ç†å’Œä½¿ç”¨è™šæ‹ŸçŽ¯å¢ƒã€‚[for
+help](https://github.com/Alan-D-Chen/Python-ABC/blob/master/WINSå¦‚ä½•å®‰è£…pythonè™šæ‹ŸçŽ¯å¢ƒ%EF%BC%88pytorch%EF%BC%89.md)
 <br>
 
-* ÔÚlinux»·¾³ÏÂ´´½¨pythonÐéÄâ»·¾³£¬Ò²ºÜ¼òµ¥¡£[for help](https://github.com/Alan-D-Chen/Python-ABC/blob/master/ÈçºÎ´´½¨Python%20ÐéÄâ»·¾³%EF%BC%88Pytorch%EF%BC%89.md)
+* åœ¨linuxçŽ¯å¢ƒä¸‹åˆ›å»ºpythonè™šæ‹ŸçŽ¯å¢ƒï¼Œä¹Ÿå¾ˆç®€å•ã€‚[for help](https://github.com/Alan-D-Chen/Python-ABC/blob/master/å¦‚ä½•åˆ›å»ºPython%20è™šæ‹ŸçŽ¯å¢ƒ%EF%BC%88Pytorch%EF%BC%89.md)
 
-ÔÚpycharmµÄsetting-->project interpreter -->"add"
-ÖÐÒ»¶¨ÒªÖ¸Ïò·þÎñÆ÷µÄÐéÄâ»·¾³µÄ½âÊÍÆ÷~£¡£¡£¡£¡(¾ßÌå·½·¨¿ÉÒÔ²Î¿¼[ÈçºÎÔ¶³Ì·þÎñÆ÷](https://www.cnblogs.com/zhuminghui/p/10947930.html))
+åœ¨pycharmçš„setting-->project interpreter -->"add"
+ä¸­ä¸€å®šè¦æŒ‡å‘æœåŠ¡å™¨çš„è™šæ‹ŸçŽ¯å¢ƒçš„è§£é‡Šå™¨~ï¼ï¼ï¼ï¼(å…·ä½“æ–¹æ³•å¯ä»¥å‚è€ƒ[å¦‚ä½•è¿œç¨‹æœåŠ¡å™¨](https://www.cnblogs.com/zhuminghui/p/10947930.html))
+
+Tips for help:
+* [æŸ¥æ‰¾å½“å‰pythonè§£é‡Šå™¨çš„ä½ç½®](https://blog.csdn.net/qq_32458499/article/details/82929201)
+* æ›´åŠ ç›´æŽ¥ä¸€ç‚¹ï¼šconda env list
